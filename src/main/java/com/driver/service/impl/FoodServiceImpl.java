@@ -101,7 +101,7 @@ public class FoodServiceImpl implements FoodService{
 				d.setId(f.getId());
 				dtos.add(d);
 		 }
-		return d;
+		return dtos;
 	}
 	
 }
