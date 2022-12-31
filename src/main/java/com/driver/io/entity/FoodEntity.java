@@ -7,8 +7,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import lombok.Getter;
+import lombok.Setter;
+
 @Entity(name = "foods")
-public class FoodEntity{
+public class FoodEntity implements Serializable{
 	@Id
 	@GeneratedValue
 	private long id;

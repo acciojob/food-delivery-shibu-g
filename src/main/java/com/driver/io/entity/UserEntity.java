@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity(name = "users")
-public class UserEntity{
+public class UserEntity implements Serializable{
 
 	@Id
 	@GeneratedValue
